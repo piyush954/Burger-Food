@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.noBg {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.bgImg {
+    background-image: url("../../../Img/background.png") !important;
+}
+
+.myFont {
+    font-family: 'Alfa Slab One', serif;
+    color: #3d2514;
+    font-weight: bolder;
+    text-shadow: 0px 0.35rem 0rem #FFF;
+    font-style: normal;
+    line-height: normal;
+}
+
+.Burger {
+    font-size: 9rem;
+    letter-spacing: -.5rem;
+}
+
+.Week {
+    font-size: 5rem;
+}
+
+.subHeading {
+    border: #3d2514;
+    border-radius: 1rem;
+    border-style: dashed;
+}
+
+
+.MenuHover a {
+    color: #3d2514;
+    z-index: 1;
+    position: relative;
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.MenuHover a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #212121;
+    z-index: -1;
+    transition: all 250ms
+}
+
+.MenuHover a:hover {
+    color: #e8e8e8;
+}
+
+.MenuHover a:hover::before {
+    width: 100%;
+}
+
+
+.rightDiv {
+    position: relative;
+}
+
+.imgSmall {
+    position: absolute;
+    bottom: 6%;
+    left: 9%;
+    border-radius: 50%;
+    background-color: crimson;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.imgSmallText {
+    height: 12rem;
+    width: 12rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    border: white solid;
+    border-radius: .5rem;
+    border-style: dashed;
+    border-radius: 50%;
+    padding: .2rem;
+    margin: 1rem;
+}

@@ -1,0 +1,11 @@
+.radioButton {
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 50% !important;
+    background-color: rgb(41, 41, 41) !important;
+}
+
+.radioButton .active{
+    color: yellow !important;
+    background-color: yellow !important;
+}

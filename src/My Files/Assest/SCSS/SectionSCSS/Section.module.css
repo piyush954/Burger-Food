@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.imgDiv {
+    position: relative;
+}
+
+.imgDiv div {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    color: white;
+}
+
+.primeColor {
+    color: #3d2514;
+}
+
+.bold {
+    font-size: 4rem;
+    letter-spacing: -.2rem;
+}
+
