@@ -9,7 +9,7 @@ const SubHeading = () => {
   return (
     <>
       <span
-        className={`p-3 bg-warning fs-6 fw-bold text-uppercase + ${CSS.primeColor}`}
+        className={`p-3 bg-warning fs-6 text-uppercase + ${CSS.primeColor}`}
       >
         Always tasty hunger
       </span>

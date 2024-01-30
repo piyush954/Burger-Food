@@ -11,7 +11,7 @@ const SectionFour = () => {
         className="carousel slide container-fluid mt-5"
         data-bs-ride="carousel"
       >
-        <div className="carousel-indicators d-lg-block">
+        <div className="carousel-indicators d-lg-block px-lg-3">
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
@@ -66,7 +66,7 @@ const SectionFour = () => {
           </div>
           <div className="carousel-item ">
             <div className="container d-lg-flex shadow align-items-center">
-              <div className="col-lg-6">
+              <div className="col-lg-6 px-3">
                 <h3 className="h3">Subtitle</h3>
                 <h1 className="h1 fw-bolder">Heading</h1>
                 <p className="fs-5">

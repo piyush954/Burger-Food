@@ -9,7 +9,6 @@
     border-radius: 5%;
     color: #fa0000;
     font-size: 1.5em;
-    font-weight: 600;
     cursor: pointer;
     overflow: hidden;
     transition: border 300ms, color 300ms;

@@ -14,8 +14,8 @@ const SectionSecond = () => {
               <div className={`${CSS.imgDiv}`}>
                 <img src={firstImg} alt="firstImg" className="img-fluid" />
                 <div className="text-truncate">
-                  <h4 className="h4 mb-0 fw-medium">Try it Today</h4>
-                  <h1 className="h1 fw-bold">Most Popular Burger</h1>
+                  <h4 className="h4 mb-0">Try it Today</h4>
+                  <h1 className="h1">Most Popular Burger</h1>
                 </div>
               </div>
             </div>
@@ -24,7 +24,7 @@ const SectionSecond = () => {
                 <img src={secondImg} alt="firstImg" className="img-fluid" />
                 <div className="text-truncate">
                   <h4 className="h4 mb-0 fs-5">Try it Today</h4>
-                  <h1 className="h1 fw-bold fs-3">
+                  <h1 className="h1 fs-3">
                     More fun <br /> more taste
                   </h1>
                 </div>
@@ -33,7 +33,7 @@ const SectionSecond = () => {
                 <img src={thirdImg} alt="firstImg" className="img-fluid" />
                 <div className="text-truncate">
                   <h4 className="h4 mb-0 fs-5">Try it Today</h4>
-                  <h1 className="h1 fw-bold fs-3">Fresh & Chili</h1>
+                  <h1 className="h1 fs-3">Fresh & Chili</h1>
                 </div>
               </div>
             </div>

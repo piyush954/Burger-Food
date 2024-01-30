@@ -27,7 +27,7 @@ export const RightDiv = () => {
           className="img-fluid px-auto mx-auto"
         />
         <div className={`${CSS.imgSmall}`} >
-          <div className={`${CSS.imgSmallText} fw-bold text-center`}>
+          <div className={`${CSS.imgSmallText} text-center`}>
             $4.9 <br /> <span className="fw-normal">Only</span>
           </div>
         </div>

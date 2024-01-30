@@ -67,7 +67,7 @@ const SectionFive = () => {
                 />
               </div>
               <div className="col-auto col-lg-6 col-sm-12 mt-sm-3 mt-lg-0">
-                <button className="btn btn-danger col-12 py-3 fw-bold fs-3">
+                <button className="btn btn-danger col-12 py-3 fs-3">
                   Book a Table
                 </button>
               </div>
